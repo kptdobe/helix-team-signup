@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="utf-8">
-  <title>Florango</title>
+  <title>${content.headerSection.title}</title>
   <meta content="yes" name="apple-touch-fullscreen" />
   <meta content="yes" name="apple-mobile-web-app-capable" />
   <meta content="black-translucent" name="apple-mobile-web-app-status-bar-style" />
@@ -11,7 +11,7 @@
 
   <meta name="robots" content="noindex">
 
-  <meta property="og:title" content="Florango">
+  <meta property="og:title" content="${content.headerSection.title}">
   <meta property="og:type" content="website">
   <meta property="og:image" content="https://spark.adobe.com/page/7th7QDstYQbgM/embed.jpg?buster=1533222831453">
   <meta property="og:image:width" content="1024">
@@ -20,7 +20,7 @@
   <meta property="og:description" content="A story told with Adobe Spark">
 
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Florango">
+  <meta name="twitter:title" content="${content.headerSection.title}">
   <meta name="twitter:image:src" content="https://spark.adobe.com/page/7th7QDstYQbgM/embed.jpg?buster=1533222831453">
   <meta name="twitter:description" content="A story told with Adobe Spark">
 
@@ -119,6 +119,7 @@
                 </sly>
 
                 <!--BUMPER-SECTION-TOP-LEVEL-START-->
+
                 <!--BUMPER-SECTION-TOP-LEVEL-END-->
 
               </div>
