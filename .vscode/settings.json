@@ -2,5 +2,6 @@
     "debug.allowBreakpointsEverywhere": true,
     "files.associations": {
         "*.htl": "html"
-    }
+    },
+    "git.ignoreLimitWarning": true
 } 

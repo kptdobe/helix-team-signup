@@ -73,9 +73,8 @@
                     <div class="title-header">
                       <h2 class="title-header-view">
                         <span class="gradient-overlay"></span>
-                        <span class="title">${content.headerSection.html}</span>
-                        <!--<span class="title">Florango</span>
-                        <span class="subtitle">FLOWER TRUCK - COMING SOON</span>-->
+                        <span class="title">${content.headerSection.title}</span>
+                        <span class="subtitle">${content.headerSection.intro}</span>
                       </h2>
                     </div>
                     <div class="navigation-hint down"></div>
@@ -85,7 +84,7 @@
 
                 <sly data-sly-list="${content.bodySections}">
                   
-                  <div data-sly-test="${!item.url}" class="section single-column-section large-content-spacing-top large-content-spacing-bottom top-shadow"
+                  <div data-sly-test="${!item.image}" class="section single-column-section large-content-spacing-top large-content-spacing-bottom top-shadow"
                     data-section-behavior="wiper-single-column" data-layer="1" data-layer-name="over">
                     <div class="section-view">
                       <div class="section-content">
@@ -98,7 +97,7 @@
                     </div>
                   </div>
 
-                  <div data-sly-test="${item.url}" class="section full-width-section" data-section-behavior="wiper-full-width-photo" data-layer="0"
+                  <div data-sly-test="${item.image}" class="section full-width-section" data-section-behavior="wiper-full-width-photo" data-layer="0"
                   data-layer-name="over">
                   <div class="section-view">
                     <div class="section-content">
@@ -106,9 +105,9 @@
                         <div class="content-container">
                           <div class="image">
                             <div class="image-wrapper">
-                              <a href="${item.url}"
+                              <a href="${item.image}"
                                 class="image-viewer-link" target="_blank" rel="nofollow noreferrer"><span class="image-placeholder-link"
-                                  data-href="${item.url}"
+                                  data-href="${item.image}"
                                   style="width: 2560px; padding-top: 75%" data-image-width="2560" data-image-height="1920"></span></a>
                             </div>
                           </div>

@@ -22,17 +22,20 @@
  * @param payload.content The content
  */
 
+var toHAST = require('mdast-util-to-hast');
+var toHTML = require('hast-util-to-html');
+
+
+
 function pre(payload) {  
   var sections = payload.content.sections;
   var bgImg = payload.content.backgroundImage = sections[0];
-  payload.content.backgroundImage.url = bgImg.mdast.children[0].children[0].url;
+  payload.content.backgroundImage.url = bgImg.image;
   payload.content.headerSection = sections[1];  
   payload.content.bodySections = sections.slice(2);
   for(var s in payload.content.bodySections) {
     var bSec = payload.content.bodySections[s];
-    if(bSec.html.includes('<img')) {
-      bSec.url = bSec.mdast.children[0].children[0].url;
-    }
+    bSec.html = toHTML(toHAST(bSec));
   }
   payload.content.time = `${new Date()}`;
 }
