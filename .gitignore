@@ -1,3 +1,6 @@
 .env
 logs
 .hlx
+dist
+package-lock.json
+pipeline.log
