@@ -36,6 +36,11 @@ function pre(payload) {
   for(var s in payload.content.bodySections) {
     var bSec = payload.content.bodySections[s];
     bSec.html = toHTML(toHAST(bSec));
+    
+    // HACK: add form based on title
+    if (bSec.title == "Ready to join?") {
+      bSec.html += '<form method="POST" action="https://script.google.com/macros/s/AKfycbx0U_xOIUXd4LGLL_fNWFXWh96ZIkOiEM7yWk6Do_ustrFvRCs1/exec"><input type="text" name="Name" placeholder="Name"/><input type="text" name="GitHub-Profile" placeholder="GitHub-Profile"/><input type="submit" /></form>';
+    }
   }
   payload.content.time = `${new Date()}`;
 }

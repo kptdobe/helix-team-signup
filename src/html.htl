@@ -37,8 +37,41 @@
   <noscript id="noscript-static-layout" data-href="https://d6uhzlpot4xwe.cloudfront.net/runtime/1.21/noscript.gz.css">
     <link href="https://d6uhzlpot4xwe.cloudfront.net/runtime/1.21/noscript.gz.css" type="text/css" rel="stylesheet">
   </noscript>
-  <!--BEGIN-BUMPER-STYLE-SHEET-->
-  <!--END-BUMPER-STYLE-SHEET-->
+  <!-- HACK BEGIN-FORMS-STYLE-SHEET-->
+  <style>
+      /* Style inputs with type="text", select elements and textareas */
+      input[type=text], select, textarea {
+          width: 100%; /* Full width */
+          padding: 12px; /* Some padding */  
+          border: 1px solid #ccc; /* Gray border */
+          border-radius: 4px; /* Rounded borders */
+          box-sizing: border-box; /* Make sure that padding and width stays in place */
+          margin-top: 6px; /* Add a top margin */
+          margin-bottom: 16px; /* Bottom margin */
+          resize: vertical; /* Allow the user to vertically resize the textarea (not horizontally) */
+          font-size: 20px;
+      }
+
+      /* Style the submit button with a specific background color etc */
+      input[type=submit] {
+          background-color: #4CAF50;
+          color: white;
+          padding: 12px 20px;
+          border: none;
+          border-radius: 4px;
+          cursor: pointer;
+          font-size: 20px;
+          width: 100%; /* Full width */
+      }
+
+      /* When moving the mouse over the submit button, add a darker green color */
+      input[type=submit]:hover {
+          background-color: #45a049;
+      }
+    </style>
+  <!--END-FORMS-STYLE-SHEET-->
+
+
 </head>
 
 <body class="">
@@ -117,13 +150,7 @@
                   </div>
                 </div>
                 </sly>
-
-                <!--BUMPER-SECTION-TOP-LEVEL-START-->
-
-                <!--BUMPER-SECTION-TOP-LEVEL-END-->
-
               </div>
-              <!--report-abuse-dialog-->
             </div>
             <!-- javascripts go here -->
             <script type="text/javascript">window.useNewBumper = true; window.brandType = 'none';</script>

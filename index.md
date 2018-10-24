@@ -62,6 +62,5 @@ Well designed, beautiful output.
 
 ### Ready to join?
 
-[Fill out the form](https://docs.google.com/forms/d/e/1FAIpQLSc7aKvZiOcx3IPo7aZk2G2wfN392j6mjc1MvG0PVSwE72r1Pw/viewform?embedded=true)
 
 ---
