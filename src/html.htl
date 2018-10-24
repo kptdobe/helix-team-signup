@@ -13,18 +13,18 @@
 
   <meta property="og:title" content="${content.headerSection.title}">
   <meta property="og:type" content="website">
-  <meta property="og:image" content="https://spark.adobe.com/page/7th7QDstYQbgM/embed.jpg?buster=1533222831453">
+  <meta property="og:image" content="imgs/thumb.jpg">
   <meta property="og:image:width" content="1024">
   <meta property="og:image:height" content="512">
-  <meta property="og:site_name" content="Adobe Spark">
-  <meta property="og:description" content="A story told with Adobe Spark">
+  <meta property="og:site_name" content="Project Helix">
+  <meta property="og:description" content="Team Sign-Up">
 
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="${content.headerSection.title}">
-  <meta name="twitter:image:src" content="https://spark.adobe.com/page/7th7QDstYQbgM/embed.jpg?buster=1533222831453">
-  <meta name="twitter:description" content="A story told with Adobe Spark">
+  <meta name="twitter:image:src" content="/imgs/thumb.jpg">
+  <meta name="twitter:description" content="Team Sign-up">
 
-  <link rel="apple-touch-icon" href="https://spark.adobe.com/page/7th7QDstYQbgM/embed.jpg?buster=1533222831453">
+  <link rel="apple-touch-icon" href="/imgs/thumb.jpg">
   <link rel="shortcut icon" href="https://d6uhzlpot4xwe.cloudfront.net/runtime/1.21/https://spark.adobe.com/page/7th7QDstYQbgM/images/favicon.ico">
 
   <meta property="fb:app_id" content="919039361464473">
