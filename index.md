@@ -25,7 +25,7 @@ Digital Experiences power the future. Join a global, open-source team to build a
 
 ### Who will use Project Helix
 
-Project Helix will be used by individuals and large and small companies alike. With increasing size of the company, user roles and responsibilities get increasingly differentiated. Hence it makes sense to group users groups by organization.
+Project Helix will be used by individuals and companies, large and small. With increasing size of the company, user roles and responsibilities get increasingly differentiated. Hence it makes sense to group users groups by organization.
 
 
 ---
