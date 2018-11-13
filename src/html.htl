@@ -68,33 +68,40 @@
       input[type=submit]:hover {
           background-color: #45a049;
       }
+
+      /* hiding bumper */
+      .sections-article-layout .un-branded-bumper-section {
+        display: none;
+      }
     </style>
-  <!--END-FORMS-STYLE-SHEET-->
+  <!--END-FORMS-STYLE-SHEET-->x
 
 
 </head>
 
 <body class="">
   <div id="app">
-    <div id="publication-viewer" class="publication-viewer">
-      <div id="luca-splash" class="splash">
-        <div class="background" style="background-image: url(${content.backgroundImage.url}?quality=75&auto=webp&width=2560); background-position: 50% 50%;"></div>
-        <div class="content">
-          <div class="logo"></div>
-          <div class="loading-label">Loading</div>
-          <div class="wp-progress-bar">
-            <div class="wp-progress-bar-clip">
-              <div class="wp-progress-bar-view"></div>
+    <div id="hidden-corner" style="display:none">
+      <div style="display:none" id="luca-splash" class="splash">
+          <div style="display:none" class="background" style="background-image: url(${content.backgroundImage.url}?quality=75&auto=webp&width=2560); background-position: 50% 50%;"></div>
+          <div style="display:none" class="content">
+            <div class="logo"></div>
+            <div style="display:none" class="loading-label">Loading</div>
+            <div class="wp-progress-bar">
+              <div class="wp-progress-bar-clip">
+                <div class="wp-progress-bar-view"></div>
+              </div>
             </div>
           </div>
         </div>
       </div>
+    </div>
+    <div id="publication-viewer" class="publication-viewer">
       <div class="publication-view">
         <div class="wp-swipe-panel-group">
           <div class="wp-swipe-panel-group-view">
             <div class="wp-swipe-panel-group-panel article-panel">
               <div class="article wiper-theme sections-article-layout" data-article-type="sections-article">
-
                 <div class="section title-section title-center" data-section-behavior="wiper-title" data-layer="-1"
                   data-layer-name="under" data-scroll-after-animation="false">
                   <div class="section-view">
