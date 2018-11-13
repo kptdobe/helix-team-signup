@@ -78,7 +78,7 @@
   <div id="app">
     <div id="publication-viewer" class="publication-viewer">
       <div id="luca-splash" class="splash">
-        <div class="background" style="background-image: url(${content.backgroundImage.url}); background-position: 50% 50%;"></div>
+        <div class="background" style="background-image: url(${content.backgroundImage.url}?quality=75&auto=webp&width=2560); background-position: 50% 50%;"></div>
         <div class="content">
           <div class="logo"></div>
           <div class="loading-label">Loading</div>
@@ -100,7 +100,7 @@
                   <div class="section-view">
                     <div class="section-background">
                       <div role="img" class="section-background-image" style="background-position: 50% 50%;"><a class="background-image-placeholder-link"
-                          href="${content.backgroundImage.url}"
+                          href="${content.backgroundImage.url}?quality=75&auto=webp&width=2560"
                           data-image-width="2560" data-image-height="3840"></a></div>
                     </div>
                     <div class="title-header">
@@ -140,7 +140,7 @@
                             <div class="image-wrapper">
                               <a href="${item.image}"
                                 class="image-viewer-link" target="_blank" rel="nofollow noreferrer"><span class="image-placeholder-link"
-                                  data-href="${item.image}"
+                                  data-href="${item.image}?quality=75&auto=webp&width=2560"
                                   style="width: 2560px; padding-top: 75%" data-image-width="2560" data-image-height="1920"></span></a>
                             </div>
                           </div>
