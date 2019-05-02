@@ -1,7 +1,5 @@
 ![](imgs/victor-larracuente-476156-unsplash.jpg "")
 
----
- 
 # Project Helix Team
 
 Sign-up and Join the Team
